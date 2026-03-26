@@ -1,4 +1,4 @@
-```python
+
 import streamlit as st
 import google.generativeai as genai
 from dotenv import load_dotenv
@@ -103,4 +103,4 @@ if u:
                 st.session_state.messages.append({"role": "assistant", "content": r.text})
             except Exception as e:
                 st.error(str(e))
-```
+
